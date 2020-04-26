@@ -1,4 +1,7 @@
 
+" Plugins
+" run :PlugInstall/:PlugUpdate to install/update plugins
+" see https://github.com/junegunn/vim-plug for details
 call plug#begin()
 " fancy statusline
 Plug 'vim-airline/vim-airline'
