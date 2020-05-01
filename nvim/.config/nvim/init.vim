@@ -2,7 +2,7 @@
 " Plugins
 " run :PlugInstall/:PlugUpdate to install/update plugins
 " see https://github.com/junegunn/vim-plug for details
-call plug#begin('~/.vim/autoload')
+call plug#begin('~/.config/nvim/autoload')
 " fancy statusline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
