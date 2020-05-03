@@ -11,6 +11,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 " color schemes
 Plug 'joshdick/onedark.vim'
+" syntax
+Plug 'sheerun/vim-polyglot' " improved syntax highlighting
 call plug#end()
 
 set exrc
