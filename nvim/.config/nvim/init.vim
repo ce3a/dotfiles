@@ -13,6 +13,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'joshdick/onedark.vim'
 " syntax
 Plug 'sheerun/vim-polyglot' " improved syntax highlighting
+" writing
+Plug 'junegunn/goyo.vim'      " distraction-free writing
+Plug 'junegunn/limelight.vim' " hyperfocus writing
 call plug#end()
 
 set exrc
@@ -36,6 +39,12 @@ colorscheme onedark
 " airline
 let g:airline_powerline_fonts = 1
 let g:airline_theme='onedark'
+
+" limelight
+let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_conceal_ctermfg = 240
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
 
 " enable background transparency
 hi Normal guibg=NONE ctermbg=NONE
