@@ -30,6 +30,12 @@ set cursorline
 " exit from terminal mode
 :tnoremap <Esc> <C-\><C-n>
 
+" enable 24 bit color support if supported
+" may be needed for the colorscheme to work
+if (has("termguicolors"))
+    set termguicolors
+endif
+
 " color scheme
 " see https://github.com/joshdick/onedark.vim for details
 let g:onedark_hide_endofbuffer = 1
