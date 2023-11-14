@@ -1,5 +1,4 @@
 
 # Installed plugins
-**/autoload/*
-!**/autoload/plug.vim
+nvim/.config/nvim/plugged/
 

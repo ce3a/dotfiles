@@ -2,15 +2,15 @@
 " Plugins
 " run :PlugInstall/:PlugUpdate to install/update plugins
 " see https://github.com/junegunn/vim-plug for details
-call plug#begin('~/.config/nvim/autoload')
+call plug#begin('~/.config/nvim/plugged')
 " fancy statusline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " git management
 Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter', { 'branch': 'main' }
 " color schemes
-Plug 'joshdick/onedark.vim'
+Plug 'joshdick/onedark.vim', { 'branch': 'main' }
 " syntax
 Plug 'sheerun/vim-polyglot' " improved syntax highlighting
 " writing
