@@ -3,6 +3,16 @@
 ## Configuring a system
 Run `stow <dir>` to update the symlinks.
 
+### Extending global git configuration
+
+Add the following to the `~/.gitconfig` file:
+
+```
+[include]
+    path = /homes/sergejs/.dotfiles/git/.git_aliases
+    path = /homes/sergejs/.dotfiles/git/.git_options
+```
+
 ## Hacks & Tweaks
 
 ### Fixing Powerline fonts

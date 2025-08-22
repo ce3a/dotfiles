@@ -1,0 +1,6 @@
+[alias]
+    graph = log --graph --pretty='%C(yellow)%h%C(reset) %s %C(blue)[%an, %ar]%C(auto)%d'
+    log-ahead = log @{u}..
+    log-behind = log ..@{u}
+    root = rev-parse --show-toplevel
+    fush = push --force-with-lease
